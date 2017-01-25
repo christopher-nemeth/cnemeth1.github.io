@@ -406,6 +406,8 @@ h2.zero,p.zero {
 
 #formDrop {
   display: none;
+  text-align: center;
+  
 }
 
 input[type=email] {
@@ -418,6 +420,8 @@ input[type=email] {
     transition: 0.3s;
     outline: none;
     font-size: 95%;
+    display: inline-block;
+   
 }
 
 input[type=email]:focus {
@@ -436,6 +440,8 @@ textarea {
     transition: 0.3s;
     outline: none;
     font-size: 95%;
+    display: inline-block;
+
 }
 
 textarea:focus {
@@ -454,7 +460,8 @@ button[type=submit] {
   letter-spacing: 0.7px;
   border: 2.6px solid #FF6C4C;
   border-radius: 15px;
-  margin-top: 10px;
+  display: block;
+  margin: 0.5% auto;
 }
 
 #contact button[type=submit]:hover {
