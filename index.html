@@ -3,12 +3,13 @@
 	<head>
 	<title>Christopher Nemeth</title>
 	<meta name="description" content="A portfolio website for Christopher Nemeth. Front End Web Developer out of Denver Colorado">
-	<meta name="keywords" content="Christopher Nemeth, Web Developer, Denver, Portfolio, ">
+	<meta name="keywords" content="Christopher Nemeth, Web Developer, Denver, Portfolio">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="referrer" content="origin">
 	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 	</head>
 	<body>
@@ -32,25 +33,39 @@
 			<!-- Home Content -->
 			<div id="home-content" class="home-content">
 				<h1>CHRISTOPHER NEMETH</h1>
-				<h2>Front End Web Developer</h2>
-				<h3>Ready to take your web design needs further..</h3>
+				<h2>Front End Developer</h2>
+				<!-- <h3>Ready to take your web design needs further..</h3> -->
 			</div>
 			<section id="about">
-				<div class="main-wrapper">
+				<div>
 					<h3>ABOUT</h3>
-					<p>My name is Christopher Nemeth. I am an aspiring front end web developer and I currently reside in beautiful Denver, Colorado. When I'm not working on projects you could find me adeventuring outdoors, sampling new beers, and staying current with my family and freinds from the east coast. Artsy by nature, I have spent years in my youthful past playing guitar, as well as editing film and designing sound for film in college. Front end development allows me to explore my creativity in a more visual contex, which has been an exciting new frontier in my life. With borderline OCD for detail, I will work tirelessly to ensure that all of your web design needs look perfect and be responsive in the ever changing tech world.</p>
-					<div class="my-image">
-						<img src="images/me2015wed.jpg" alt="Christopher Nemeth">
-					</div>
+				</div>
+				<div class="abt-div">
+					<p>My name is Christopher Nemeth. I am a front end developer and I currently reside in beautiful Denver, Colorado. When I'm not working on projects you could find me adeventuring outdoors, sampling new beers, and staying current with my family and freinds from the east coast. Artsy by nature, I have spent years in my youthful past playing guitar, as well as editing film and designing sound for film in college. Front end development allows me to explore my creativity in a more visual contex, which has been an exciting new frontier in my life. With borderline OCD for detail, I will work tirelessly to ensure that all of your web design needs look perfect and be responsive in the ever changing tech world.</p>
+					<img class="my-pic" src="images/DSC_0235 copy.jpg" alt="Christopher Nemeth">
 				</div>
 			</section>
 			<!-- "Parallax" -->
 			<div id="denver-image"></div>
 			<!-- "Parallax" -->
 			<section id="skills">
-				<div class="skills-img">
-			        <h3>SKILLS</h3>
-					<img src="images/htmlcssjsvector.png" alt="web_vector_shields">
+				<div>
+			    <h3>SKILLS</h3>
+				</div>
+				<div class="logo-div">
+					<div class="front-logos">
+						<h2>Front End Technologies</h2>
+						<i class="devicon-html5-plain-wordmark"></i>
+						<i class="devicon-css3-plain-wordmark"></i>
+						<i class="devicon-javascript-plain"></i>
+						<i class="devicon-react-original"></i>
+					</div>
+					<div class="back-logos">
+						<h2>Back End Technologies</h2>
+						<i class="devicon-nodejs-plain"></i>
+						<i class="devicon-express-original"></i>
+						<i class="devicon-postgresql-plain"></i>
+					</div>
 				</div>
 			</section>
 			<!-- "Parallax" -->
@@ -58,8 +73,70 @@
 			<!-- "Parallax" -->
 			<section id="portfolio">
 				<h3>PORTFOLIO</h3>
-				<p>Coming Soon!</p>
-					<div class="img-containter">
+				<div class="projects-div">
+					<div class="project-div">
+						<a href="https://magic-memory-29443.firebaseapp.com/index.html">
+							<h2>MTG Memory</h2>
+						</a>
+						<a class="project-links" href="hhttps://magic-memory-29443.firebaseapp.com/index.html" target="_blank">
+							<img class="project-img" src="images/mtg-memory.gif" alt="Hike Tracker App Gif">
+						</a>
+						<a href="https://github.com/cnemeth1/magic-memory" target="_blank">GitHub</a>
+					</div>
+					<div class="project-div">
+						<a href="https://github.com/cnemeth1/unWined" target="_blank">
+							<h2>unWined</h2>
+						</a>
+						<a class="project-links" href="https://github.com/cnemeth1/unWined" target="_blank">
+							<img id="unWined" src="images/unWined.gif" alt="Hike Tracker App Gif">
+						</a>
+						<a href="https://github.com/cnemeth1/unWined" target="_blank">GitHub</a>
+					</div>
+ 					<div class="project-div">
+						<a href="https://hike-tracker-dfcb1.firebaseapp.com/">
+							<h2>Hike Tracker</h2>
+						</a>
+						<a class="project-links" href="https://hike-tracker-dfcb1.firebaseapp.com/" target="_blank">
+							<img class="project-img" src="images/hike-tracker.gif" alt="Hike Tracker App Gif">
+						</a>
+						<a href="https://github.com/cnemeth1/hike-tracker" target="_blank">GitHub</a>
+					</div>
+				</div>
+					<!--  -->
+			</section>
+			<!-- "Parallax" -->
+			<div id="colo-mtns"></div>
+			<!-- "Parallax" -->
+			<section id="contact">
+				<div>
+					<h3>CONTACT</h3>
+					<p>I would love to work with you.</p>
+					<p>If you have questions please feel free to contact me. You can send me an email <a id="formLink" href="#">here!</a></p>
+					<!--Hidden Form-->
+					<div id="formDrop">
+						<div class="message-sent">Thank you for the message! I will get in touch with you shortly!
+						</div>
+						<form method="POST" action="http://formspree.io/cnemeth1@gmail.com"	>
+						  	<input type="email" name="email" placeholder="Your email">
+						    <textarea name="message" placeholder="Your message"></textarea>
+						    <button type="submit" id="send">Send</button>
+						</form>
+					</div>
+				</div>
+				<div class="social-icons-div">
+					<a target="_blank" href="https://www.linkedin.com/in/christopher-nemeth"><img src="images/linkedin.png" alt="Linked In Logo"></a>
+					<a target="_blank" href="https://www.facebook.com/cnemeth1"><img src="images/facebook.png" alt="Facebook Logo"></a>
+					<a target="_blank" href="https://twitter.com/Neemzor"><img src="images/twitter.png" alt="Twitter Logo"></a>
+					<a target="_blank" href="https://github.com/cnemeth1"><img src="images/git.png" alt="Git Hub Logo"></a>
+				</div>
+			</section>
+		</div>
+ 	<script src="js/index.js" type="text/javascript"></script>
+	</body>
+</html>
+
+<!--
+<div class="img-containter">
 						<div class="one-quarter top">
 							<ul class="img-fx effect">
 	    						<li>
@@ -75,7 +152,7 @@
 	       							<h2 class="zero">Placeholder Image</h2>
 	       							<p class="zero">Check out this cool project!</p>
 	    						</li>
-								<li><img class="top" src="images/greywork2.jpg" alt="Coming Soon!"></li>
+								<li><img class="top" src="images/mtn.png" alt="Hike Tracker"></li>
 							</ul>
 						</div>
 						<div class="one-quarter top">
@@ -96,30 +173,4 @@
 								<li><img class="top" src="images/greywork4.jpg" alt="Coming Soon!"></li>
 							</ul>
 						</div>
-					</div>
-			</section>
-			<!-- "Parallax" -->
-			<div id="colo-mtns"></div>
-			<!-- "Parallax" -->
-			<section id="contact">
-				<h3>CONTACT</h3>
-					<p>I would love to work with you. If you have questions please feel free to contact me. You can send me an email <a id="formLink" href="#">here!</a></p>
-					<!--Hidden Form-->
-					<div id="formDrop">
-						<div class="message-sent">Thank you for the message! I will get in touch with you shortly!
-						</div>
-						<form method="POST" action="http://formspree.io/cnemeth1@gmail.com"	>
-						  	<input type="email" name="email" placeholder="Your email">
-						    <textarea name="message" placeholder="Your message"></textarea>
-						    <button type="submit" id="send">Send</button>
-						</form>
-					</div>
-					<a target="_blank" href="https://www.linkedin.com/in/christopher-nemeth"><img src="images/linkedin.png" alt="Linked In Logo"></a>
-					<a target="_blank" href="https://www.facebook.com/cnemeth1"><img src="images/facebook.png" alt="Facebook Logo"></a>
-					<a target="_blank" href="https://twitter.com/Neemzor"><img src="images/twitter.png" alt="Twitter Logo"></a>
-					<a target="_blank" href="https://github.com/cnemeth1"><img src="images/git.png" alt="Git Hub Logo"></a>
-			</section>
-		</div>
- 	<script src="js/main.js" type="text/javascript"></script>
-	</body>
-</html>
+					</div> -->
