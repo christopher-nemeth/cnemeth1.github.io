@@ -4,42 +4,47 @@
   box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-
+/*----------General Styling---------- */
 body, html {
   height: 100%;
-  /* background-color: #1a1a28; */
-  /* background-color: grey; */
 }
 
 a {
   text-decoration: none;
 }
 
+h1 {
+  padding-top: 50vh;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  letter-spacing: .3em;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  padding-bottom: 5vh;
+  font-size: 2em;
+  font-weight: 200;
+  letter-spacing: .5vw;
+  text-align: center;
+}
+
 h3 {
   font-family: 'Nunito', sans-serif;
   color: black;
-  /* padding-top: 7vh; */
   padding-bottom: 5vh;
-  font-size: 1.8em;
+  font-size: 1.2em;
   font-weight: 200;
-  letter-spacing: 3px;
+  letter-spacing: .2vw;
   text-align: center;
 }
 
 /*------Header/Nav-Bar/Hamburger------*/
-
 .menu-on {
-  /* background-color: #1a1a28; */
-  /* background-color: grey; */
   background-color: rgba(10,5,22, 0.4);
   color: #fff;
   position: fixed;
@@ -60,15 +65,12 @@ h3 {
   top: 0;
   right: 0;
   bottom: 0;
-  /* background-color: grey; */
   background-color: rgba(10,5,22, 0.4);
-  /* background-color: rgba(0,0,0, 0.4); */
   z-index: 1000;
   display: none;
 }
 
 nav.primary-nav {
-  /* background-color: #1a1a28; */
   background-color: rgba(10,5,22, 0.4);
   position: fixed;
   right: 0;
@@ -93,7 +95,6 @@ nav.primary-nav a {
 }
 
 nav a:hover {
-  /* background-color: #cc551e; */
   background-color: rgba(58, 58, 58, 0.8);
 }
 
@@ -109,12 +110,12 @@ nav a:hover {
   display: block;
 }
 
-/*----Home Page-----*/
+/*---------Landing Section----------*/
 .wrapper {
   height: 100%;
 }
 
-/*----Parallax----*/
+/*-------------Parallax-------------*/
 #home-content {
   width: 100vw;
   height: 100vh;
@@ -130,45 +131,21 @@ nav a:hover {
   text-align: center;
 }
 
-h1 {
-  padding-top: 50vh;
-  font-family: 'Nunito', sans-serif;
-  color: white;
-  letter-spacing: .3em;
-  font-size: 2em;
-  text-transform: uppercase;
-  font-weight: 200;
-}
-
 #home-content h2 {
-  padding-top: 10px;
+  padding-top: 1.2vw;
   font-family: 'Nunito', sans-serif;
   color: white;
-  letter-spacing: 3px;
-  font-size: 15px;
+  font-size: 1em;
   text-transform: uppercase;
   font-weight: 200;
 }
+/*-----------End Parallax-----------*/
 
-/* #home-content h3 {
-  font-family: 'Nunito', sans-serif;
-  color: white;
-  letter-spacing: 3px;
-  font-size: 11px;
-  text-transform: uppercase;
-  font-weight: 200;
-  padding-top:20px;
-  padding-bottom: 20px;
-  margin-top: 400px;
-} */
+/*----------------------------------*/
+/*-----------Main Content-----------*/
+/*----------------------------------*/
 
-/*---End Parallax---*/
-
-/*--------------------*/
-/*----Main Content----*/
-/*--------------------*/
-
-/*---About Section---*/
+/*-----------About Section----------*/
 #about {
   background-color: #ffffff;
   width: 100vw;
@@ -203,7 +180,7 @@ p {
   width: 25vw;
 }
 
-/*----Parallax----*/
+/*-------------Parallax-------------*/
 #denver-image {
   min-width: 100vw;
   height: 75vh;
@@ -218,9 +195,9 @@ p {
   bottom: 0;
   text-align: center;
 }
-/*--End Parallax--*/
+/*-----------End Parallax-----------*/
 
-/*---Skills Section---*/
+/*----------Skills Section----------*/
 #skills {
   width: 100vw;
   padding: 7vh;
@@ -242,26 +219,13 @@ p {
   background-color: #e3e4e5;
 }
 
-h2 {
-  color: black;
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.3em;
-  padding-bottom: 4vh;
-}
-
 i {
   color: #0F2A07;
   font-size: 15vh;
   padding: 1vw;
 }
 
-/* .front-logos {
-  display: flex;
-  justify-content: space-around;
-
-} */
-
-/*----Parallax----*/
+/*-------------Parallax-------------*/
 #keyboard-img {
   min-width: 100vw;
   height: 75vh;
@@ -276,10 +240,9 @@ i {
   bottom: 0;
   text-align: center;
 }
+/*-----------End Parallax-----------*/
 
-/*--End Parallax--*/
-
-/*---Portfolio Section---*/
+/*--------Portfolio Section---------*/
 #portfolio {
   background-color: #ffffff;
   width: 100vw;
@@ -288,7 +251,6 @@ i {
   color: black;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
 }
 
 .projects-div {
@@ -303,7 +265,7 @@ i {
   text-align: center;
 }
 
-.project-div h2:hover {
+.project-div h3:hover {
   color: #203f27;
   font-weight: 600;
 }
@@ -330,11 +292,10 @@ i {
 }
 
 #unWined:hover {
-  /* box-shadow: .6vw .6vw 1.8vw #203f27; */
   box-shadow: 1.2vw 1.2vw 2vw  #203f27;
 }
 
-/*----Parallax----*/
+/*-------------Parallax-------------*/
 #colo-mtns {
   min-width: 100vw;
   height: 75vh;
@@ -349,9 +310,9 @@ i {
   bottom: 0;
   text-align: center;
 }
-/*--End Parallax--*/
+/*-----------End Parallax-----------*/
 
-/*---Contact Section---*/
+/*----------Contact Section---------*/
 #contact {
   background-color: #1c1c1c;
   width: 100vw;
@@ -362,7 +323,7 @@ i {
   flex-direction: column;
 }
 
-#contact h3 {
+#contact h2 {
   color: white;
 }
 
@@ -390,7 +351,7 @@ i {
   justify-content: center;
 }
 
-/*----Form Styling----*/
+/*----------Form Styling----------*/
 .message-sent{
   display: none;
   padding-bottom: 30px;
@@ -400,7 +361,6 @@ i {
 #formDrop {
   display: none;
   text-align: center;
-
 }
 
 input[type=email] {
@@ -414,7 +374,6 @@ input[type=email] {
     outline: none;
     font-size: 95%;
     display: inline-block;
-
 }
 
 input[type=email]:focus {
@@ -438,7 +397,7 @@ textarea {
 
 textarea:focus {
   border: 1.4px solid #f9f001;
-  tranistion: fadein ;
+  transition: fadein;
 }
 
 button[type=submit] {
@@ -480,10 +439,6 @@ button[type=submit] {
 } */
 
 /*---Social Media Button Styling---*/
-/* #contact a {
-  width: 25%;
-} */
-
 #contact img {
   padding: 0px 7.5px;
   margin-top: 5vh;
@@ -494,6 +449,7 @@ button[type=submit] {
   -webkit-animation: flash 1.5s;
   animation: flash 1.5s;
 }
+
 @-webkit-keyframes flash {
   0% {
     opacity: .4;
@@ -514,12 +470,7 @@ button[type=submit] {
 /*----Break Points-----*/
 /*----Small Screens----*/
 @media only screen and (max-width: 965px){
-
-  /* #about p {
-    padding: .2% 10%;
-  } */
-
-   input {
+  input {
     min-width: 60%;
   }
 
@@ -528,9 +479,9 @@ button[type=submit] {
   }
 }
 
-/*-------Tablet-------*/
+/*-----------Tablet-----------*/
 @media screen and (min-width: 780px) {
-/*---Burger Continued---*/
+/*------Burger Continued-----*/
   .menu-on, .menu-off {
     display: none;
   }
@@ -570,7 +521,7 @@ button[type=submit] {
   }
 }
 
-/*-------Mobile-------*/
+/*-----------Mobile-----------*/
 @media only screen and (max-width: 580px) {
 
   input {
