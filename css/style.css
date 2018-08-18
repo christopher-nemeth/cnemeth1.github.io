@@ -162,9 +162,10 @@ p {
   color: black;
   font-size: 1.2em;
   font-weight: 200;
-  text-align: center;
-  width: 50vw;
+  letter-spacing: .1vw;
+  line-height: 2.5vh;
   padding-right: 10vw;
+  padding-bottom: 5vh;
 }
 
 .abt-div {
@@ -172,6 +173,12 @@ p {
   flex-direction: row;
   align-items: center;
   align-items: space-around;
+}
+
+.p-div {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
 }
 
 .my-pic {
@@ -331,9 +338,9 @@ i {
   font-family: 'Nunito', sans-serif;
   color: white;
   padding: 2% 2%;
-  font-size: 16px;
+  /* font-size: 16px;
   font-weight: 200;
-  letter-spacing: 1px;
+  letter-spacing: 1px; */
   width: 100%;
   text-align: center;
 }
@@ -519,6 +526,12 @@ button[type=submit] {
     align-items: center;
     justify-content: space-around;
   }
+   .project-img {
+    width: 75vw;
+    box-shadow: .5vw .5vw 1.5vw #3a3a3a;
+    border: .1px solid black;
+    border-radius: .5vw;
+  }
 }
 
 /*-----------Mobile-----------*/
@@ -547,5 +560,11 @@ button[type=submit] {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+  }
+  .project-img {
+    width: 75vw;
+    box-shadow: .5vw .5vw 1.5vw #3a3a3a;
+    border: .1px solid black;
+    border-radius: .5vw;
   }
 }
