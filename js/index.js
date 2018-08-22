@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function () {
     console.log( "ready!" );
 
 // event for the form to appear
@@ -34,5 +34,3 @@ function revealForm(event){
     } // End if
   });
 });
-
-
