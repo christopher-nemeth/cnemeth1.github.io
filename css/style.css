@@ -36,7 +36,7 @@ h2 {
 h3 {
   font-family: 'Nunito', sans-serif;
   color: black;
-  padding-bottom: 5vh;
+  margin-bottom: 5vh;
   font-size: 1.2em;
   font-weight: 200;
   letter-spacing: .2vw;
@@ -350,14 +350,27 @@ i {
   justify-content: center;
 }
 
+small {
+  color: white;
+  font-size: .8em;
+  margin-top: 3vh;
+}
+
 /*-------Resume Modal-------*/
+#pdf {
+  color: #E5C85E;
+  cursor: pointer;
+  padding: none;
+  text-decoration: underline;
+}
+
 .modal {
   display: none;
   position: fixed;
   flex-direction: column;
   align-items: center;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 10vh;
   left: 0;
   top: 0;
   width: 100%;
@@ -394,12 +407,12 @@ i {
   to {transform:scale(1)}
 }
 
-.close {
+/* .close {
   position: absolute;
-  top: 15px;
-  right: 35px;
+  top: 5vh;
+  right: 20vw;
   color: #f1f1f1;
-  font-size: 40px;
+  font-size: 2em;
   font-weight: bold;
   transition: 0.3s;
 }
@@ -409,7 +422,7 @@ i {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
-}
+} */
 
 @media only screen and (max-width: 700px){
   .modal-content {
@@ -419,11 +432,12 @@ i {
 
 /*----------Form Styling----------*/
 #formLink {
-  color: #f9f001;
+  color: #E5C85E;
+  text-decoration: underline;
 }
 
 #formLink:visited {
-  color: #f9f001;
+  color: #E5C85E;
 }
 
 .message-sent{
@@ -451,7 +465,7 @@ input[type=email] {
 }
 
 input[type=email]:focus {
-    border: 1.4px solid #f9f001;
+    border: 1.4px solid #E5C85E;
 }
 
 textarea {
@@ -470,20 +484,20 @@ textarea {
 }
 
 textarea:focus {
-  border: 1.4px solid #f9f001;
+  border: 1.4px solid #E5C85E;
   transition: fadein;
 }
 
 button[type=submit] {
   min-width: 5%;
   height: 27px;
-  background-color: #f9f001;
+  background-color: #E5C85E;
   color: #1c1c1c;
   font-family: 'Nunito', sans-serif;
   font-size: 95%;
   font-weight: 200;
   letter-spacing: 0.7px;
-  border: 1.4px solid #f9f001;
+  border: 1.4px solid #E5C85E;
   border-radius: 15px;
   display: block;
   margin: 0.5% auto;
@@ -492,6 +506,8 @@ button[type=submit] {
 #contact button:hover {
   cursor: pointer;
   opacity: 1;
+  background-color: rgb(245, 225, 152);
+  border: none;
   /* -webkit-animation: flash 8.5s;
   animation: flash 8.5s; */
 }

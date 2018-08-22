@@ -36,16 +36,12 @@ function revealForm(event){
 });
 
 var modal = document.getElementById('myModal')
-
-var img = document.getElementById('myImg')
-// var modalImg = document.getElementById("img01")
+var resume = document.getElementById('pdf')
 var captionText = document.getElementById("caption")
-img.onclick = function(){
+resume.onclick = function(){
     modal.style.display = "flex";
 }
 
-var span = document.getElementsByClassName("close")[0];
-
-span.onclick = function() {
+modal.onclick = function() {
   modal.style.display = "none"
 }
