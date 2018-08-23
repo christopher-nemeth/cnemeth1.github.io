@@ -50,7 +50,7 @@ h3 {
   position: fixed;
   z-index: 1001;
   padding: 13px;
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
@@ -164,8 +164,8 @@ p {
   font-weight: 200;
   letter-spacing: .1vw;
   line-height: 2.5vh;
-  padding-right: 10vw;
-  padding-bottom: 5vh;
+  /* padding-right: 10vw; */
+  margin-bottom: 4vh;
 }
 
 .abt-div {
@@ -179,6 +179,18 @@ p {
   display: flex;
   flex-direction: column;
   width: 50vw;
+}
+
+li {
+  font-size: 1.4em;
+}
+
+.p-div i {
+  color: #225020;
+  font-size: 1.7em;
+  padding: 0vw;
+  margin-right: .7vw;
+  margin-bottom: 1vh;
 }
 
 .my-pic {
@@ -227,7 +239,7 @@ p {
 }
 
 i {
-  color: #0F2A07;
+  color: #225020;
   font-size: 15vh;
   padding: 1vw;
 }
@@ -350,86 +362,21 @@ i {
   justify-content: center;
 }
 
+.social-icons-div i {
+  color: #E5C85E;
+  font-size: 2em;
+}
+
+.social-icons-div i:hover {
+  color: rgb(245, 225, 152);
+  font-size: 2em;
+}
+
 small {
   color: white;
   font-size: .8em;
   margin-top: 3vh;
 }
-
-/*-------Resume Modal-------*/
-#pdf {
-  color: #E5C85E;
-  cursor: pointer;
-  padding: none;
-  text-decoration: underline;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  flex-direction: column;
-  align-items: center;
-  z-index: 1;
-  padding-top: 10vh;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.9);
-}
-
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-}
-
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-.modal-content, #caption {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
-}
-
-/* .close {
-  position: absolute;
-  top: 5vh;
-  right: 20vw;
-  color: #f1f1f1;
-  font-size: 2em;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-} */
-
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
-
 /*----------Form Styling----------*/
 #formLink {
   color: #E5C85E;
@@ -508,58 +455,68 @@ button[type=submit] {
   opacity: 1;
   background-color: rgb(245, 225, 152);
   border: none;
-  /* -webkit-animation: flash 8.5s;
-  animation: flash 8.5s; */
-}
-/* @-webkit-keyframes flash {
-  0% {
-    opacity: .4;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes flash {
-  0% {
-    opacity: .4;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
-
-/*---Social Media Button Styling---*/
-#contact img {
-  padding: 0px 7.5px;
-  margin-top: 5vh;
 }
 
-#contact a:hover img {
-  opacity: 1;
-  -webkit-animation: flash 1.5s;
-  animation: flash 1.5s;
+/*-------Resume Modal-------*/
+#pdf {
+  color: #E5C85E;
+  cursor: pointer;
+  padding: none;
+  text-decoration: underline;
 }
 
-@-webkit-keyframes flash {
-  0% {
-    opacity: .4;
-  }
-  100% {
-    opacity: 1;
-  }
+.modal {
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  padding-top: 10vh;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
 }
-@keyframes flash {
-  0% {
-    opacity: .4;
-  }
-  100% {
-    opacity: 1;
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
   }
 }
 
 /*----Break Points-----*/
 /*----Small Screens----*/
-@media only screen and (max-width: 965px){
+/* @media only screen and (max-width: 965px){
   input {
     min-width: 60%;
   }
@@ -567,19 +524,19 @@ button[type=submit] {
   textarea {
     min-width: 60%;
   }
-}
+} */
 
 /*-----------Tablet-----------*/
 @media screen and (min-width: 780px) {
 /*------Burger Continued-----*/
-  .menu-on, .menu-off {
+  /* .menu-on, .menu-off {
     display: none;
-  }
+  } */
 
   nav.primary-nav {
     display: block;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     text-align: center;
 
   }
@@ -649,5 +606,9 @@ button[type=submit] {
     box-shadow: .5vw .5vw 1.5vw #3a3a3a;
     border: .1px solid black;
     border-radius: .5vw;
+  }
+
+  #unWined {
+    width: 35vw;
   }
 }
