@@ -598,7 +598,6 @@ button[type=submit] {
     background-image: url(../images/rky-mtn.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
   }
 
   input {
