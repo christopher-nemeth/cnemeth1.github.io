@@ -529,9 +529,9 @@ button[type=submit] {
 /*-----------Tablet-----------*/
 @media screen and (min-width: 780px) {
 /*------Burger Continued-----*/
-  /* .menu-on, .menu-off {
+  .menu-on, .menu-off {
     display: none;
-  } */
+  }
 
   nav.primary-nav {
     display: block;
