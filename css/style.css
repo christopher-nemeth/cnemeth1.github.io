@@ -570,62 +570,31 @@ button[type=submit] {
 
   #home-content {
     width: 100vw;
-    /* height: 100vh; */
     background-image: url(../images/openroad-green.jpg);
-    /* background-size: cover;
+    background-size: contain;
     background-position: center;
-    background-attachment: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center; */
   }
 
   #denver-image {
     width: 100vw;
-    /* height: 75vh; */
     background-image: url(../images/denvercity2.png);
-    /* background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center; */
   }
 
   #keyboard-img {
     width: 100vw;
-    /* height: 75vh; */
     background-image: url(../images/keyboard.jpg);
-    /* background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center; */
   }
 
   #colo-mtns {
     width: 100vw;
-    /* height: 75vh; */
     background-image: url(../images/rky-mtn.jpg);
-    /* background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center; */
   }
 
   input {
