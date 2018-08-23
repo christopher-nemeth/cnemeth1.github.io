@@ -7,7 +7,6 @@
 /*----------General Styling---------- */
 body, html {
   height: 100%;
-  /* width: 100%; */
 }
 
 a {
@@ -351,18 +350,13 @@ i {
   font-family: 'Nunito', sans-serif;
   color: white;
   padding: 2% 2%;
-  /* font-size: 16px;
-  font-weight: 200;
-  letter-spacing: 1px; */
   width: 100%;
   text-align: center;
 }
 
 .social-icons-div {
-  /* width: 75vw; */
   display: flex;
   justify-content: center;
-  justify-content: space-around;
 }
 
 .social-icons-div i {
@@ -380,6 +374,7 @@ small {
   font-size: .8em;
   margin-top: 5vh;
 }
+
 /*----------Form Styling----------*/
 #formLink {
   color: #E5C85E;
@@ -402,20 +397,20 @@ small {
 }
 
 input[type=email] {
-    width: 50%;
-    padding: 12px 5px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2.6px solid #ffffff;
-    -webkit-transition: 0.5s;
-    transition: 0.3s;
-    outline: none;
-    font-size: 95%;
-    display: inline-block;
+  width: 50%;
+  padding: 12px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2.6px solid #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.3s;
+  outline: none;
+  font-size: 95%;
+  display: inline-block;
 }
 
 input[type=email]:focus {
-    border: 1.4px solid #E5C85E;
+  border: 1.4px solid #E5C85E;
 }
 
 textarea {
@@ -517,17 +512,8 @@ button[type=submit] {
   }
 }
 
-/*----Break Points-----*/
-/*----Small Screens----*/
-/* @media only screen and (max-width: 965px){
-  input {
-    min-width: 60%;
-  }
-
-  textarea {
-    min-width: 60%;
-  }
-} */
+/*---------Break Points----------*/
+/*---------Small Screens---------*/
 
 /*-----------Tablet-----------*/
 @media screen and (min-width: 780px) {
@@ -541,8 +527,8 @@ button[type=submit] {
     position: fixed;
     width: 100vw;
     text-align: center;
-
   }
+
   nav.primary-nav a {
     display: inline-block;
   }
@@ -553,6 +539,7 @@ button[type=submit] {
   input{
     min-width: 60%;
   }
+
   textarea {
     min-width: 60%;
   }
@@ -569,6 +556,7 @@ button[type=submit] {
     align-items: center;
     justify-content: space-around;
   }
+
    .project-img {
     width: 75vw;
     box-shadow: .5vw .5vw 1.5vw #3a3a3a;
@@ -579,6 +567,66 @@ button[type=submit] {
 
 /*-----------Mobile-----------*/
 @media only screen and (max-width: 580px) {
+
+  #home-content {
+    width: 100vw;
+    /* height: 100vh; */
+    background-image: url(../images/openroad-green.jpg);
+    /* background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center; */
+  }
+
+  #denver-image {
+    width: 100vw;
+    /* height: 75vh; */
+    background-image: url(../images/denvercity2.png);
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center; */
+  }
+
+  #keyboard-img {
+    width: 100vw;
+    /* height: 75vh; */
+    background-image: url(../images/keyboard.jpg);
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center; */
+  }
+
+  #colo-mtns {
+    width: 100vw;
+    /* height: 75vh; */
+    background-image: url(../images/rky-mtn.jpg);
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center; */
+  }
 
   input {
     min-width: 60%;
@@ -672,6 +720,7 @@ button[type=submit] {
     align-items: center;
     justify-content: space-around;
   }
+
   .project-img {
     width: 65vw;
     box-shadow: .5vw .5vw 1.5vw #3a3a3a;
@@ -681,6 +730,10 @@ button[type=submit] {
 
   #unWined {
     width: 35vw;
+  }
+
+  .social-icons-div {
+   justify-content: space-around;
   }
 
 }
