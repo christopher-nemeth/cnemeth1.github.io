@@ -570,13 +570,15 @@ button[type=submit] {
 
   #home-content {
     width: 100vw;
+    height: 75vh;
     background-image: url(../images/openroad-green.jpg);
     background-size: contain;
-    background-position: center;
+    background-position: no-repeat;
   }
 
   #denver-image {
     width: 100vw;
+    height: 75vh;
     background-image: url(../images/denvercity2.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -584,6 +586,7 @@ button[type=submit] {
 
   #keyboard-img {
     width: 100vw;
+    height: 75vh;
     background-image: url(../images/keyboard.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -591,6 +594,7 @@ button[type=submit] {
 
   #colo-mtns {
     width: 100vw;
+    height: 75vh;
     background-image: url(../images/rky-mtn.jpg);
     background-size: contain;
     background-repeat: no-repeat;
