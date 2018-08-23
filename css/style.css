@@ -7,6 +7,7 @@
 /*----------General Styling---------- */
 body, html {
   height: 100%;
+  /* width: 100%; */
 }
 
 a {
@@ -358,8 +359,10 @@ i {
 }
 
 .social-icons-div {
+  /* width: 75vw; */
   display: flex;
   justify-content: center;
+  justify-content: space-around;
 }
 
 .social-icons-div i {
@@ -375,7 +378,7 @@ i {
 small {
   color: white;
   font-size: .8em;
-  margin-top: 3vh;
+  margin-top: 5vh;
 }
 /*----------Form Styling----------*/
 #formLink {
@@ -586,13 +589,81 @@ button[type=submit] {
   }
 
   .front-logos {
-    padding-bottom: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .back-logos {
+    margin-bottom: 5vh;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    margin-top: 1.8vh;
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+
+  ul {
+    width: 55vw;
+  }
+
+  li {
+    font-size: 1.3em;
+   }
+
+  #about i {
+    font-size: 1.25em;
+  }
+
+  i {
+    font-size: 4.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .project-div a{
+    font-size: .8em;
+  }
+
+  #about {
+    padding: 3vw;
+  }
+
+  #skills {
+    padding: 3vw;
+  }
+
+  #portfolio {
+    padding: 3vw;
+  }
+
+  #contact {
+    padding: 3vw;
+  }
+
+  .my-pic {
+    border: 1px solid white;
+    border-radius: 2vw;
+    width: 50vw;
+    margin-bottom: 4vh;
   }
 
   .projects-div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  }
+
+  .project-div {
+    margin-bottom: 5vh;
   }
 
   .abt-div {
@@ -602,7 +673,7 @@ button[type=submit] {
     justify-content: space-around;
   }
   .project-img {
-    width: 75vw;
+    width: 65vw;
     box-shadow: .5vw .5vw 1.5vw #3a3a3a;
     border: .1px solid black;
     border-radius: .5vw;
@@ -611,4 +682,5 @@ button[type=submit] {
   #unWined {
     width: 35vw;
   }
+
 }
