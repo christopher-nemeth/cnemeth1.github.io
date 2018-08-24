@@ -221,7 +221,6 @@ li {
   right: 0;
   bottom: 0;
   text-align: center;
-
 }
 /*-----------End Parallax-----------*/
 
@@ -584,38 +583,38 @@ button[type=submit] {
 
   #home-content {
     width: 100vw;
-    height: 75vh;
+    height: 45vh;
     background-image: url(../images/openroad-green.jpg);
-    background-size: contain;
+   background-size: stretch;
     background-repeat: no-repeat;
-    /* position: relative; */
+    background-position: center;
   }
 
   #denver-image {
     width: 100vw;
-    height: 22vh;
+    height: 45vh;
     background-image: url(../images/denvercity2.png);
-    background-size: contain;
+    background-size: stretch;
     background-repeat: no-repeat;
-    /* z-index: 1; */
+    background-position: center;
   }
 
   #keyboard-img {
     width: 100vw;
-    height: 22vh;
+    height: 45vh;
     background-image: url(../images/keyboard.jpg);
-    background-size: contain;
+    background-size: stretch;
     background-repeat: no-repeat;
-    /* z-index: 1; */
+    background-position: center;
   }
 
   #colo-mtns {
     width: 100vw;
-    height: 22vh;
+    height: 45vh;
     background-image: url(../images/rky-mtn.jpg);
-    background-size: contain;
+    background-size: stretch;
     background-repeat: no-repeat;
-    /* z-index: 1; */
+    background-position: center;
   }
 
   input {
@@ -635,16 +634,17 @@ button[type=submit] {
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 1.8em;
+    text-align: center;
   }
 
   h2 {
     margin-top: 1.8vh;
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
 
   h3 {
-    font-size: 1.6em;
+    font-size: 1.3em;
   }
 
   ul {
@@ -652,15 +652,15 @@ button[type=submit] {
   }
 
   li {
-    font-size: 1.3em;
+    font-size: 1.2em;
    }
 
   #about i {
-    font-size: 1.25em;
+    font-size: 1.15em;
   }
 
   i {
-    font-size: 4.5em;
+    font-size: 3.5em;
   }
 
   p {
