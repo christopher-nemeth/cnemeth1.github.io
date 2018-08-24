@@ -111,7 +111,6 @@ nav a:hover {
 
 /*---------Landing Section----------*/
 
-
 /*-------------Parallax-------------*/
 #home-content {
   width: 100vw;
@@ -233,7 +232,6 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* position: absolute; */
 }
 
 .logo-div {
@@ -278,7 +276,6 @@ i {
   color: black;
   display: flex;
   flex-direction: column;
-  /* position: absolute; */
 }
 
 .projects-div {
@@ -297,6 +294,7 @@ i {
   color: #203f27;
   font-weight: 600;
 }
+
 .project-links {
   padding-bottom: 5vh;
 }
@@ -349,7 +347,6 @@ i {
   color: black;
   display: flex;
   flex-direction: column;
-  /* position: absolute; */
 }
 
 #contact h2 {
@@ -585,19 +582,17 @@ button[type=submit] {
 
   #home-content {
     width: 100vw;
-    height: 45vh;
+    height: 50vh;
     background-image: url(../images/openroad-green.jpg);
-   background-size: stretch;
+    background-size: stretch;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-
-
   }
 
   #denver-image {
     width: 100vw;
-    height: 45vh;
+    height: 50vh;
     background-image: url(../images/denvercity2.png);
     background-size: stretch;
     background-repeat: no-repeat;
@@ -607,7 +602,7 @@ button[type=submit] {
 
   #keyboard-img {
     width: 100vw;
-    height: 45vh;
+    height: 50vh;
     background-image: url(../images/keyboard.jpg);
     background-size: stretch;
     background-repeat: no-repeat;
@@ -617,7 +612,7 @@ button[type=submit] {
 
   #colo-mtns {
     width: 100vw;
-    height: 45vh;
+    height: 50vh;
     background-image: url(../images/rky-mtn.jpg);
     background-size: stretch;
     background-repeat: no-repeat;
@@ -647,7 +642,7 @@ button[type=submit] {
   }
 
   h2 {
-    margin-top: 1.8vh;
+    margin-top: 4.8vh;
     font-size: 1.5em;
   }
 
@@ -739,5 +734,4 @@ button[type=submit] {
    justify-content: space-around;
    margin-top: 3vh;
   }
-
 }
