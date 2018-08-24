@@ -570,34 +570,38 @@ button[type=submit] {
 
   #home-content {
     width: 100vw;
-    height: 75vh;
+    height: 22vh;
     background-image: url(../images/openroad-green.jpg);
     background-size: contain;
     background-position: no-repeat;
+    z-index: 1;
   }
 
   #denver-image {
     width: 100vw;
-    height: 75vh;
+    height: 22vh;
     background-image: url(../images/denvercity2.png);
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: 1;
   }
 
   #keyboard-img {
     width: 100vw;
-    height: 75vh;
+    height: 22vh;
     background-image: url(../images/keyboard.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: 1;
   }
 
   #colo-mtns {
     width: 100vw;
-    height: 75vh;
+    height: 22vh;
     background-image: url(../images/rky-mtn.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: 1;
   }
 
   input {
