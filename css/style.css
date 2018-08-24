@@ -579,15 +579,21 @@ button[type=submit] {
 }
 
 /*-----------Mobile-----------*/
-@media only screen and (max-width: 580px) {
+@media only screen and (min-width: 580px) {
+  html {
+    min-height: 100%;
+  }
 
   #home-content {
     width: 100vw;
     height: 45vh;
-    background-image: url(../images/openroad-green.jpg);
+    /* background-image: url(../images/openroad-green.jpg);
    background-size: stretch;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
+    background: url(../images/openroad-green.jpg) no-repeat center center fixed;
+    background-size: cover;
+
   }
 
   #denver-image {
@@ -671,6 +677,11 @@ button[type=submit] {
     font-size: .8em;
   }
 
+  small {
+    margin-bottom: 2vh;
+    text-align: center;
+  }
+
   #about {
     padding: 3vw;
   }
@@ -724,6 +735,7 @@ button[type=submit] {
 
   .social-icons-div {
    justify-content: space-around;
+   margin-top: 3vh;
   }
 
 }
