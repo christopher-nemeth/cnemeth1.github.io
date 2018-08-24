@@ -14,7 +14,6 @@ a {
 }
 
 h1 {
-  padding-top: 50vh;
   font-family: 'Nunito', sans-serif;
   color: white;
   letter-spacing: .3em;
@@ -111,9 +110,7 @@ nav a:hover {
 }
 
 /*---------Landing Section----------*/
-.wrapper {
-  height: 100%;
-}
+
 
 /*-------------Parallax-------------*/
 #home-content {
@@ -123,21 +120,32 @@ nav a:hover {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  z-index: -1;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  text-align: center;
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-content h1 {
+   position: fixed;
+   text-shadow: 2px 2px 8px rgb(0, 0, 0);
 }
 
 #home-content h2 {
-  padding-top: 1.2vw;
   font-family: 'Nunito', sans-serif;
   color: white;
   font-size: 1em;
   text-transform: uppercase;
   font-weight: 200;
+  position: fixed;
+  padding: 0;
+  margin-top: 4.5vh;
+  text-shadow: 2px 2px 8px rgb(0, 0, 0);
 }
 /*-----------End Parallax-----------*/
 
@@ -155,16 +163,16 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
 }
 
-p {
+#about p {
   font-family: 'Nunito', sans-serif;
   color: black;
   font-size: 1.2em;
   font-weight: 200;
   letter-spacing: .1vw;
   line-height: 2.5vh;
-  /* padding-right: 10vw; */
   margin-bottom: 4vh;
 }
 
@@ -201,8 +209,8 @@ li {
 
 /*-------------Parallax-------------*/
 #denver-image {
-  min-width: 100vw;
-  height: 75vh;
+  width: 100vw;
+  height: 130vh;
   background-image: url(../images/denvercity2.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -213,6 +221,7 @@ li {
   right: 0;
   bottom: 0;
   text-align: center;
+
 }
 /*-----------End Parallax-----------*/
 
@@ -226,6 +235,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
 }
 
 .logo-div {
@@ -247,7 +257,7 @@ i {
 /*-------------Parallax-------------*/
 #keyboard-img {
   min-width: 100vw;
-  height: 75vh;
+  height: 110vh;
   background-image: url(../images/keyboard.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -270,6 +280,7 @@ i {
   color: black;
   display: flex;
   flex-direction: column;
+  position: absolute;
 }
 
 .projects-div {
@@ -317,7 +328,7 @@ i {
 /*-------------Parallax-------------*/
 #colo-mtns {
   min-width: 100vw;
-  height: 75vh;
+  height: 130vh;
   background-image: url(../images/rky-mtn.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -340,6 +351,7 @@ i {
   color: black;
   display: flex;
   flex-direction: column;
+  position: absolute;
 }
 
 #contact h2 {
@@ -352,6 +364,8 @@ i {
   padding: 2% 2%;
   width: 100%;
   text-align: center;
+  letter-spacing: .1vw;
+  line-height: 2.5vh;
 }
 
 .social-icons-div {
@@ -570,11 +584,10 @@ button[type=submit] {
 
   #home-content {
     width: 100vw;
-    height: 22vh;
-    background-image: url(../images/openroad-green.jpg);
+    height: 75vh;
+    background-image: url(../images/keyboard.jpg);
     background-size: contain;
-    background-position: no-repeat;
-    z-index: 1;
+    background-repeat: no-repeat;
   }
 
   #denver-image {
