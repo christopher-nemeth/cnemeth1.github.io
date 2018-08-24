@@ -579,7 +579,7 @@ button[type=submit] {
 }
 
 /*-----------Mobile-----------*/
-@media only screen and (min-width: 580px) {
+@media only screen and (max-width: 580px) {
   html {
     min-height: 100%;
   }
