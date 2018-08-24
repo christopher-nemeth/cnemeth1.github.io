@@ -163,7 +163,6 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* position: absolute; */
 }
 
 #about p {
@@ -587,12 +586,12 @@ button[type=submit] {
   #home-content {
     width: 100vw;
     height: 45vh;
-    /* background-image: url(../images/openroad-green.jpg);
+    background-image: url(../images/openroad-green.jpg);
    background-size: stretch;
     background-repeat: no-repeat;
-    background-position: center; */
-    background: url(../images/openroad-green.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
 
   }
 
@@ -603,6 +602,7 @@ button[type=submit] {
     background-size: stretch;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: scroll;
   }
 
   #keyboard-img {
@@ -612,6 +612,7 @@ button[type=submit] {
     background-size: stretch;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: scroll;
   }
 
   #colo-mtns {
@@ -621,6 +622,7 @@ button[type=submit] {
     background-size: stretch;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: scroll;
   }
 
   input {
