@@ -472,6 +472,11 @@ button[type=submit] {
   text-decoration: underline;
 }
 
+embed {
+  width: 800vw;
+  height: 1000vh;
+}
+
 .modal {
   display: none;
   position: fixed;
@@ -730,8 +735,13 @@ button[type=submit] {
     width: 35vw;
   }
 
+  embed {
+    width: 530vw;
+    height: 730vh;
+  }
+
   .social-icons-div {
-   justify-content: space-around;
-   margin-top: 3vh;
+    justify-content: space-around;
+    margin-top: 3vh;
   }
 }
