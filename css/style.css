@@ -132,7 +132,7 @@ nav a:hover {
 }
 
 #home-content h1 {
-   position: fixed;
+   /* position: fixed; */
    text-shadow: 2px 2px 8px rgb(0, 0, 0);
 }
 
@@ -142,7 +142,7 @@ nav a:hover {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: 200;
-  position: fixed;
+  /* position: fixed; */
   padding: 0;
   margin-top: 4.5vh;
   text-shadow: 2px 2px 8px rgb(0, 0, 0);
@@ -163,7 +163,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
+  /* position: absolute; */
 }
 
 #about p {
@@ -210,7 +210,7 @@ li {
 /*-------------Parallax-------------*/
 #denver-image {
   width: 100vw;
-  height: 130vh;
+  height: 100vh;
   background-image: url(../images/denvercity2.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -235,7 +235,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .logo-div {
@@ -257,7 +257,7 @@ i {
 /*-------------Parallax-------------*/
 #keyboard-img {
   min-width: 100vw;
-  height: 110vh;
+  height: 100vh;
   background-image: url(../images/keyboard.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -280,7 +280,7 @@ i {
   color: black;
   display: flex;
   flex-direction: column;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .projects-div {
@@ -328,7 +328,7 @@ i {
 /*-------------Parallax-------------*/
 #colo-mtns {
   min-width: 100vw;
-  height: 130vh;
+  height: 100vh;
   background-image: url(../images/rky-mtn.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -351,7 +351,7 @@ i {
   color: black;
   display: flex;
   flex-direction: column;
-  position: absolute;
+  /* position: absolute; */
 }
 
 #contact h2 {
@@ -585,9 +585,10 @@ button[type=submit] {
   #home-content {
     width: 100vw;
     height: 75vh;
-    background-image: url(../images/keyboard.jpg);
+    background-image: url(../images/openroad-green.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    /* position: relative; */
   }
 
   #denver-image {
@@ -596,7 +597,7 @@ button[type=submit] {
     background-image: url(../images/denvercity2.png);
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: 1;
+    /* z-index: 1; */
   }
 
   #keyboard-img {
@@ -605,7 +606,7 @@ button[type=submit] {
     background-image: url(../images/keyboard.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: 1;
+    /* z-index: 1; */
   }
 
   #colo-mtns {
@@ -614,7 +615,7 @@ button[type=submit] {
     background-image: url(../images/rky-mtn.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: 1;
+    /* z-index: 1; */
   }
 
   input {
