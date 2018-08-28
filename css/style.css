@@ -342,7 +342,7 @@ i {
 #contact {
   background-color: #1c1c1c;
   width: 100vw;
-  padding: 7vh;
+  padding: 6vh;
   font-family: 'Nunito', sans-serif;
   color: black;
   display: flex;
@@ -376,12 +376,6 @@ i {
 .social-icons-div i:hover {
   color: rgb(245, 225, 152);
   font-size: 2em;
-}
-
-small {
-  color: white;
-  font-size: .8em;
-  margin-top: 5vh;
 }
 
 /*----------Form Styling----------*/
@@ -519,6 +513,24 @@ button[type=submit] {
   .modal-content {
     width: 100%;
   }
+}
+
+/*-------------Footer-------------*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(14, 14, 14);
+}
+
+small {
+  color: white;
+  font-size: .8em;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 5vh;
+  margin-left: 8vw;
 }
 
 /*---------Break Points----------*/
@@ -674,9 +686,13 @@ button[type=submit] {
     font-size: .8em;
   }
 
+  footer {
+    justify-content: center;
+    align-items: center;
+  }
+
   small {
-    margin-bottom: 2vh;
-    text-align: center;
+    margin: 0;
   }
 
   #about {
@@ -730,13 +746,13 @@ button[type=submit] {
     width: 35vw;
   }
 
-  /* embed {
+  embed {
     width: 530vw;
     height: 730vh;
-  } */
+  }
 
   .social-icons-div {
     justify-content: space-around;
-    margin-top: 3vh;
+    margin: 3vh 0;
   }
 }
